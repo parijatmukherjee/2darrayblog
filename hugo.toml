@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://grasshopper:3000/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-ficurinia'
