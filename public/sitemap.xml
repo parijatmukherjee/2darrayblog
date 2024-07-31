@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://grasshopper:3000/categories/</loc>
+    <loc>https://2darray.com/categories/</loc>
   </url><url>
-    <loc>http://grasshopper:3000/manifest/index.json</loc>
+    <loc>https://2darray.com/manifest/index.json</loc>
   </url><url>
-    <loc>http://grasshopper:3000/</loc>
+    <loc>https://2darray.com/</loc>
   </url><url>
-    <loc>http://grasshopper:3000/search/</loc>
+    <loc>https://2darray.com/search/</loc>
   </url><url>
-    <loc>http://grasshopper:3000/tags/</loc>
+    <loc>https://2darray.com/tags/</loc>
   </url>
 </urlset>
