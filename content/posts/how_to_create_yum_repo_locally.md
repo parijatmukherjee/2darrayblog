@@ -1,11 +1,12 @@
 +++
-title = 'How to Create Yum Repository & Upload RPMs from Nexus'
+title = 'Yum Repository to upload RPMs from Nexus'
 date = 2017-10-14T19:57:29+02:00
 draft = false
+tags = ['tech', 'nexus', 'rpm', 'centos', 'yum repository', 'shell script']
 +++
-In this blog post, I'm going to show you how to link your custom RPM files from Nexus to your YUM repository, making it super easy to install your own components on RHEL or CentOS.
+In this blog post, I'm trying to link my custom RPM files from Nexus to a YUM repository.
 
-While the exact steps I use might not perfectly match your setup, you'll definitely get the gist of how to do it yourself. Let's dive in and simplify the process together!
+While the exact steps I use might not perfectly match all setup, but as a reader one should definitely get the gist of how to do it.
 
 ## The Pre-requisite
 

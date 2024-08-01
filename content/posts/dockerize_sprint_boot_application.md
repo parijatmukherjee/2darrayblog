@@ -1,5 +1,5 @@
 +++
-title = 'How to Dockerize Spring Boot Applications'
+title = 'Dockerize a Spring Boot Applications'
 date = 2019-06-07T21:49:45+02:00
 draft = false
 +++
@@ -7,23 +7,23 @@ In this article, I am going to discuss an interesting part of the newly created 
 
 ## Why Docker ?
 
-Well, There is huge list of pros. (also cons.), but for me the advantage is, any Operating System which can run docker, will be able to run your application. If you are new to Docker, I will suggest you to have quick read of this article here.
+Well, There is huge list of pros. (also cons.), but for me the advantage is, any Operating System which can run docker, will be able to run my application.
 
 ## The Requirements
 
 ### Spring Boot 2 Application
 
-I believe you have a Spring Boot 2 Application with you to make a docker image of it.
+A Spring Boot 2 Application to make a docker image of it.
 
 ### Docker Registry
 
-You must have a docker registry where you can store your docker images and maintain those by providing proper tags.
+A docker registry where you one store the docker images and maintain those by providing proper tags.
 
-If you don’t have any docker registry, you can create free at [Canister](https://cloud.canister.io/). Just go ahead and create an account.
+Here anyone can create one free at [Canister](https://cloud.canister.io/).
 
 ## The Dependency
 
-Now, it is time to add the dependency to your pom.xml file. Well, there are multiple plugins to create docker from maven projects but I liked the one created by Spotify. I found it easy to configure and run. So, here it is – Just use the below code snippet in your <build> part and replace with your docker registry username, password and repository url for dockers.
+Now, it is time to add the dependency to the pom.xml file. Well, there are multiple plugins to create docker from maven projects but I liked the one created by Spotify. I found it easy to configure and run. So, here it is – Just need to use the below code snippet in the <build> part and replace with the docker registry username, password and repository url for dockers.
 
 ```xml
 <build>
@@ -59,11 +59,11 @@ Now, it is time to add the dependency to your pom.xml file. Well, there are mult
 </build>
 ```
 
-You’re almost done. Just one step left which is to create the docker file.
+We're almost done. Just one step left which is to create the docker file.
 
 ## The Dockerfile
 
-This docker file will be used by the dockerfile-maven-plugin during the build phase. You need to create a file named “Dockerfile” at the same level of your pom.xml. The content of this file should look like below :
+This docker file will be used by the dockerfile-maven-plugin during the build phase. We need to create a file named “Dockerfile” at the same level of the pom.xml. The content of this file should look like below :
 
 ```java
 FROM openjdk:8-jre
@@ -80,4 +80,4 @@ ENTRYPOINT ["java", "-jar", "/opt/<YOUR_PROJECT_NAME>/<YOUR_ARTIFACT_NAME>.jar"]
 - It creates an ENTRYPOINT which means, when this docker will start running, it will execute the java -jar command.
 - Finally when the docker build is completed, it will push the image to your remote docker registry.
 
-I hope you have successfully pushed your docker image to your docker registry and you liked my post on how to dockerize spring boot applications.
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDJ2dmRzZnVieTgzMnU3M2JiZXg5eWxsNXRjdm9qbm1nOWlieHhuYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lTpme2Po0hkqI/giphy.webp)

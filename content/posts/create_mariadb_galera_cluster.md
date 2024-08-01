@@ -1,5 +1,5 @@
 +++
-title = 'How to create MariaDB Galera Cluster in CentOS 6.x'
+title = 'Create MariaDB Galera Cluster in CentOS 6.x'
 date = 2017-10-14T20:11:37+02:00
 draft = false
 +++
