@@ -26,8 +26,8 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           PASS: ${{ secrets.PASS }}
-        run: |
-          ssh-keyscan -H 2darray.com >> ~/.ssh/known_hosts
+        run:
+#         ssh-keyscan -H 2darray.com >> ~/.ssh/known_hosts
           tar -czf /tmp/hugo_site.tar.gz -C public .
 #          sshpass -p $PASS scp /tmp/hugo_site.tar.gz github@2darray.com:/tmp/
 #          sshpass -p $PASS ssh github@2darray.com 'bash -s' < ./scripts/deploy.sh
