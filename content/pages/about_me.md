@@ -12,7 +12,7 @@ According to my Google Analytics report, you're one of the rare, curious souls c
 
 Starting to blog wasn't easy for me. The big question was, "What should I write about?" And to be honest, I was still asking myself that even when I began this blog. But here's the thing: everyone has something they're knowledgeable about that they can share through blogging.
 
-If you like my blog and find it helpful, please let me know! You can email me at <parijat@2darray.com>. And feel free to reach out just to say hi.
+If you like my blog and find it helpful, please let me know! You can email me at <parijat@2darray.com>. And feel free to reach out even just to say hi.
 
 Digitally yours,
 
