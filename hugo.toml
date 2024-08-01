@@ -57,7 +57,7 @@ summaryLength = 30
     [[menu.icons]]
         identifier = "linkedin"
         name = "LinkedIn"
-        url = ""
+        url = "https://www.linkedin.com/in/parijatmukherjee/"
         weight = 40
 
 # this section is necessary if you want infinite scrolling
