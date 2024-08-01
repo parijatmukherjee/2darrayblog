@@ -2,6 +2,7 @@
 title = 'Make Use of SOLID Coding Principles'
 date = 2019-08-04T22:04:27+02:00
 draft = false
+tags = ['solid', 'tech', 'design pattern']
 +++
 We all know what are the pros and cons of Object Oriented Programming, but what about writing better codes? What about making it more flexible and easier to read? Well, here are some tips on SOLID Design Pattern and the easy thumb rules to keep in mind while coding.
 
