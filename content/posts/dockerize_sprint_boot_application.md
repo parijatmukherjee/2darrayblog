@@ -2,6 +2,7 @@
 title = 'Dockerize a Spring Boot Applications'
 date = 2019-06-07T21:49:45+02:00
 draft = false
+tags = ['docker', 'spring boot', 'maven', 'spotify docker plugin', 'java']
 +++
 In this article, I am going to discuss an interesting part of the newly created application, i.e. how to dockerize spring boot applications. Before jumping into the solution, let’s have a brief idea – why we should dockerize an application ?
 

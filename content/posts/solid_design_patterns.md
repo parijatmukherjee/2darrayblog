@@ -26,7 +26,7 @@ Always think of the logic and the business rules which are only **applicable** f
 
 ### What we need to do ?
 
-Write your codes in a way so that, if someone wants to add a new functionality to the class in future, he or she won’t have to touch your existing code.
+Write your codes in a way so that, if someone wants to add a new functionality to the class in future, they won’t have to touch your existing code.
 
 ![](https://media1.tenor.com/m/9SjKJ_ll6vUAAAAC/christmas-vacation-raw.gif)
 
@@ -46,7 +46,7 @@ If you have two classes, class A and class B, where B is a subclass of A, all th
 
 ### What is it all about ?
 
-Lets’ assume, I have an interface having two methods x() and y(). Two of my classes A and B implements the interface, but Class A has only the functionality of x(), where Class B has both of the functionalities x() and y(). The easiest way to solve this is, override y() in class A, and implement nothing in it… which will directly lead us to the situation shown in the gif above.
+Lets’ assume, I have an interface having two methods x() and y(). Two of my classes A and B implements the interface, but Class A has only the functionality of x(), where Class B has both of the functionalities x() and y(). The easiest way to solve this is, override y() in class A, and implement nothing in it… which will directly lead us to the situation shown in the gif below.
 
 The **Pattern** is to create two interfaces. One will have the common functionalities and the second interface will have the extra functions (i.e. y() from the above example) and will extend the first interface. Now, when we will implement class A, we will implement the first interface, but for class B, we will implement the second interface.
 

@@ -2,6 +2,7 @@
 title = 'Create MariaDB Galera Cluster in CentOS 6.x'
 date = 2017-10-14T20:11:37+02:00
 draft = false
+tags = ['database', 'redundancy', 'database cluster', 'relational database cluster', 'mariadb', 'galera']
 +++
 
 In this post, I'm sharing my experience setting up a MariaDB Galera cluster with three nodes on CentOS 6.x. I'll walk everyone through the setup and configurations I used, and by the end, everyone should be able to apply these steps to other CentOS or RHEL distributions. Let's dive into it!
