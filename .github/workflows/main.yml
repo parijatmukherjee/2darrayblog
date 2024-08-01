@@ -36,7 +36,7 @@ jobs:
         with:
           host: 2darray.com
           username: github
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          key: ${{ secrets.PASS }}
           port: 22
           source: "public/*"
           target: "/tmp/2darray-site/"
