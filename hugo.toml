@@ -18,7 +18,6 @@ summaryLength = 30
     appletouch = "/apple-touch-icon.png"
     svgicon = "/logo.svg"
     icon512 = "/android-chrome-512x512.png"
-    # commento = "https://cloud.techpills.technology:54321/js/commento.js"
     cactusCommentsSiteName = ""
     cactusCommentsServerName = ""
     cactusCommentsHomeserver = ""

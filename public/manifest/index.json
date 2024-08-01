@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "My New Hugo Site",
-  "short_name": "My New Hugo Site",
+  "name": "2darray Warm Logs",
+  "short_name": "2darray Warm Logs",
   "start_url": "/",
   "display": "standalone",
   
@@ -10,6 +10,25 @@
   "background_color": "#242629",
   "theme_color": "#db5793"
   
+    ,
+    "description": " Unleashing the power of code — where a software developer pushes the boundaries of technology through experiments and ideas."
+  
+  
+    ,
+    "icons": [
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ]
   
 }
 
