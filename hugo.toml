@@ -24,7 +24,7 @@ summaryLength = 30
 
     imageInArticlePreview = true
 
-    enableShareOnFediverse = true
+    enableShareOnFediverse = false
 
     enableRelatedArticles = true
     relatedArticlesNum = 2
@@ -44,11 +44,6 @@ summaryLength = 30
         startLevel = 1
 
 [menu]
-    [[menu.main]]
-        identifier = "blogs"
-        name = "Blogs"
-        url = "/blogs"
-        weight = 99
     [[menu.icons]]
         identifier = "github"
         name = "GitHub"
@@ -59,3 +54,13 @@ summaryLength = 30
         name = "Mastodon"
         url = ""
         weight = 40
+    [[menu.icons]]
+        identifier = "linkedin"
+        name = "LinkedIn"
+        url = ""
+        weight = 40
+
+# this section is necessary if you want infinite scrolling
+# it allows to output the article list as paged JSON so that "pages" can be retrieved via javascript
+[outputs]
+    home = ["HTML", "JSON"]
