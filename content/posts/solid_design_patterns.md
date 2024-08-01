@@ -16,7 +16,7 @@ I am personally focused on how to use SOLID principles with some practical appro
 
 Always think of the logic and the business rules which are only **applicable** for that class.
 
-“Gather together the things that change for the same reasons. Separate those things that change for different reasons.”<br \>- Robert C. Martin
+“Gather together the things that change for the same reasons. Separate those things that change for different reasons.”- Robert C. Martin
 
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExem1xcmNzYWc3MzdleW55OWhudzR4amQ5NHlycGR0M2QzcGpwam1pbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U6pm4rLysiWCaLQ5CP/giphy.gif)
 

@@ -11,15 +11,8 @@ Well, There is huge list of pros. (also cons.), but for me the advantage is, any
 
 ## The Requirements
 
-### Spring Boot 2 Application
-
-A Spring Boot 2 Application to make a docker image of it.
-
-### Docker Registry
-
-A docker registry where you one store the docker images and maintain those by providing proper tags.
-
-Here anyone can create one free at [Canister](https://cloud.canister.io/).
+1. A Spring Boot 2 Application to make a docker image of it.
+2. A docker registry where you one store the docker images and maintain those by providing proper tags. Here anyone can create one free at [Canister](https://cloud.canister.io/).
 
 ## The Dependency
 
